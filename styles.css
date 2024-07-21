@@ -123,8 +123,21 @@ body {
     font-size: 4vw;
     display: none;
   }
+  .nav button{
+    display: none;
+  }
   .nav i {
     display: block;
     font-size: 6vw;
+  }
+  .content {
+    height: calc(100% - 60px);
+    flex-direction: column;
+  }
+  .left{
+    width: 100%;
+  }
+  .right{
+    width: 100%;
   }
 }
