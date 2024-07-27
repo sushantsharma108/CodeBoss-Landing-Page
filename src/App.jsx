@@ -1,4 +1,5 @@
 import "./App.css";
+import Company from "./sections/CompanySection/Company";
 import Footer from "./sections/Footer/Footer";
 import Hero from "./sections/HeroSection/Hero";
 import Navbar from "./sections/Navbar/Navbar";
@@ -34,6 +35,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <Company />
       <Footer company={companyLinks} help={helpLinks} courses={coursesLinks} social={socialLinks} />
     </>
   );
