@@ -6,7 +6,7 @@ const Footer = ({ company, help, courses, social }) => {
         <footer className="footer">
             <div className={styles.containerP}>
                 <div className={styles.containerC}>
-                    <h3>Company</h3>
+                    <h3 className={styles.animatedUnderline}>Company</h3>
                     <ul className={styles.list}>
                         {company.map((item, index) => (
                             <li key={index} className={styles.listItem}>
@@ -56,7 +56,7 @@ const Footer = ({ company, help, courses, social }) => {
             </div>
 
             <div className={styles.copyright}>
-                <p>&copy; 2021 Your Company. All rights reserved.</p>
+                <p>&copy; 2024 CodeBoss. All rights reserved.</p>
             </div>
         </footer>
     );
